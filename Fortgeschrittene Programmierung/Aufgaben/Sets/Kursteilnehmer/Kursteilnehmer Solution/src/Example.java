@@ -7,7 +7,7 @@ import java.util.Set;
 public class Example {
   public static void main(String[] args) {
     HashSet<Integer> WDS125 = new HashSet<>(Set.of(1, 2, 3, 4));
-    HashSet<Integer> WDS225 = new HashSet<Integer>(Set.of(2, 3, 5));
+    HashSet<Integer> WDS225 = new HashSet<>(Set.of(2, 3, 5));
 
     // Union -> Werte nicht doppelt, da es sich um die Vereinigung von zwei Mengen handelt
     HashSet<Integer> union = new HashSet<>(WDS125);
