@@ -25,7 +25,7 @@ public class MissionControl {
 
 
     // ==========================================
-    // AUFGABE 3: Eigenes Functional Interface
+    // AUFGABE 2: Eigenes Functional Interface
     // ==========================================
 
     // TODO: Definiere in einer eigenen Datei das Interface 'FleetCommander'
@@ -34,7 +34,7 @@ public class MissionControl {
             (ship, destination, crew) -> crew > 2 && !destination.equalsIgnoreCase("Black Hole");
 
     // ==========================================
-    // AUFGABE 4: High-Order Function
+    // AUFGABE 3: High-Order Function
     // ==========================================
 
     // TODO: Implementiere die Methode processFleet.
