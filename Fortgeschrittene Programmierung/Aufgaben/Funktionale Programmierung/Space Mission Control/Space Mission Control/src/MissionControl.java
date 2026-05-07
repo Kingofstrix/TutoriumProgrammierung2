@@ -18,14 +18,14 @@ public class MissionControl {
     // TODO: Schreibe einen Consumer, der eine Warnung auf der Konsole ausgibt
 
     // ==========================================
-    // AUFGABE 3: Eigenes Functional Interface
+    // AUFGABE 2: Eigenes Functional Interface
     // ==========================================
 
     // TODO: Definiere in einer eigenen Datei das Interface 'FleetCommander'
     // TODO: Lege eine Variable vom Typ 'FleetCommander' an und implementiere sie mit einem Lambda.
 
     // ==========================================
-    // AUFGABE 4: High-Order Function
+    // AUFGABE 3: High-Order Function
     // ==========================================
 
     // TODO: Implementiere die Methode processFleet.
