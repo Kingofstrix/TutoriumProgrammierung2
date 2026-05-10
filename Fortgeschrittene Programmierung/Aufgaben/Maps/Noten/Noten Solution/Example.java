@@ -1,4 +1,5 @@
 import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -48,12 +49,14 @@ public class Example {
 
        //Aufgabe: Überprüfen, ob ein Schlüssel existiert
         String studentName = "Darian";
+        studentGrades.put("Darian", 5.4); 
         if (studentGrades.containsKey(studentName)) {
             double grade = studentGrades.get(studentName);
             System.out.println("Die Note von " + studentName + " ist: " + grade);
         } else {
             System.out.println("Fehler: Student " + studentName + " existiert nicht.");
         }
+        
 
         //Praktische Anwendung: Notenverwaltungssystem
         Map<String, Double> grades = new HashMap<>();
@@ -90,6 +93,8 @@ public class Example {
         studentNames.stream()
                 .sorted()
                 .forEach(name -> System.out.println(name));
+        
+        Collections.sort(studentNames.stream().toList());
     }
 }
 
